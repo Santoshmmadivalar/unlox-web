@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Grid</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 20px;
+            background-color: burlywood;
+        }
+
+        .Box {
+            color: black;
+            background-color: lightblue;
+            font-size: 20px;
+            text-align: center;
+            border: 1px solid black;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="products">
+        <div class="Box">Cookies</div>
+        <div class="Box">Cake</div>
+        <div class="Box">Chocolate</div>
+        <div class="Box">Donut</div>
+        <div class="Box">Ice Cream</div>
+        <div class="Box">Brownie</div>
+    </div>
+
+</body>
+</html>
